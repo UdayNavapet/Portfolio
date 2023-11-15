@@ -353,6 +353,9 @@ nav ul li a{
     .about-content{
         gap: 10rem;
     }
+    .skills-container{
+        gap: 10rem;
+    }
 }
 @media(max-width:960px){
     .home-matter{
@@ -363,6 +366,9 @@ nav ul li a{
     }
     .about-img img{
         height: 22rem;
+    }
+    .skills-container{
+        gap: 9rem;
     }
 }
 @media(max-width:920px){
@@ -375,7 +381,7 @@ nav ul li a{
     .home-content h5,.home-content p{
         font-size: 1rem;
     }
-    .about-content{
+    .about-content,.skills-container{
         gap: 7rem;
     }
     .about-img img{
@@ -386,7 +392,7 @@ nav ul li a{
     .home-matter{
         gap: 2rem;
     }
-    .about-content{
+    .about-content,.skills-container{
         gap: 6rem;
     }
     .about-img img{
@@ -396,6 +402,9 @@ nav ul li a{
 @media(max-width:860px){
     .home-matter{
         gap: 0;
+    }
+    .skills-container{
+        gap: 4rem;
     }
 }
 @media(max-width:835px){
@@ -451,6 +460,10 @@ nav ul li a{
     .about-matter p{
         text-align: center;
     }
+    .skills-container{
+        flex-direction: column;
+        gap: 6rem;
+    }
 }
 @media(max-width:550px){
     .home-content p{
@@ -468,6 +481,17 @@ nav ul li a{
     .about-matter p{
         padding: 0 2rem;
         text-align: center;
+    }
+    .skills-main-content{
+        max-width: 450px;
+        margin: 0px 15px;
+        padding: 25px 30px;
+    }
+    .skills-main-content .sub-content{
+        font-size: 90%;
+    }
+    .skills-main-content .heading{
+        font-size: 20px;
     }
 }
 @media(max-width:500px){
@@ -501,6 +525,9 @@ nav ul li a{
     }
     .mobile-field .input,.message-field .input{
         width: 91%;
+    }
+    .skills-main-content .sub-content{
+        font-size: 80%;
     }
 }
 @media(max-width:398px){
