@@ -266,6 +266,35 @@ nav ul li a{
     padding:.4rem 1.4rem ;
     border: 5px solid white;
 }
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0rem;
+    gap: 13rem;
+}
+.skills-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-icons img{
+    height: 40px;
+    padding: 0px 3px;
+}
+.skills-main-content{
+    border: 2px solid black;
+    border-radius: 50px;
+    max-width: 500px;
+    box-shadow: 5px 5px 5px black;
+    padding: 25px 50px;
+}
+.skills-main-content .heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
 @media(max-width:1300px){
     .home{
         padding: 20% 8rem 10rem 6rem;
